@@ -12,12 +12,16 @@ Status: LOCKED
      BRAND COLORS
   ===================================== */
 
-  --color-primary: #5F5225;
-  --color-hero: #141708;
-  --color-bone: #F5EBD9;
-  --color-accent: #AA8E51;
-  --color-stone: #8A7036;
-  --color-charcoal: #222222;
+--color-primary: #5F5225;
+--color-hero: #141708;
+
+--color-bone: #F5EBD9;
+--color-bone-hover: #ECE2CF;
+
+--color-accent: #AA8E51;
+--color-stone: #8A7036;
+
+--color-charcoal: #222222;
 
   /* =====================================
      LIGHT THEME
