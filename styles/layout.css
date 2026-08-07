@@ -20,6 +20,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 /* =====================================
@@ -72,6 +73,7 @@ img {
 ===================================== */
 
 .hero {
+  width: 100%;
   min-height: 100vh;
 
   display: flex;
@@ -81,6 +83,10 @@ img {
   text-align: center;
 
   padding: var(--space-hero) var(--space-sm);
+}
+
+.hero img {
+  margin-inline: auto;
 }
 
 /* =====================================
