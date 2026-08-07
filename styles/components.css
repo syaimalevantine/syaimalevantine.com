@@ -155,20 +155,33 @@ Language Gateway
   width: 120px;
   height: auto;
 
-  margin-bottom: 18px;
+  margin-bottom: 12px;
 }
 
 .gateway-title {
   margin: 0;
+
+  color: var(--color-bone);
+
+  font-weight: 300;
+
+  letter-spacing: 0.28em;
+
+  line-height: 1.05;
 }
 
 .gateway-title span {
   display: block;
 
-  margin-top: 4px;
+  margin-top: 2px;
 
-  font-size: 0.45em;
-  letter-spacing: 0.45em;
+  font-size: 0.44em;
+
+  font-weight: 300;
+
+  letter-spacing: 0.46em;
+
+  opacity: 0.88;
 }
 
 .gateway-tagline {
