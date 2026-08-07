@@ -153,52 +153,60 @@ Language Gateway
 }
 
 .gateway-logo {
-    width: 128px;
-    height: auto;
-
-    margin-bottom: 8px;
+    width: 150px;
+margin-bottom: 14px;
 }
 .gateway-title {
   margin: 0;
 
   color: var(--color-bone);
 
-  font-weight: 300;
-
-  letter-spacing: 0.28em;
-
-  line-height: 1.05;
+  font-size: 3rem;
+font-weight: 300;
+letter-spacing: 0.24em;
+line-height: 1.05;
 }
 
 .gateway-title span {
   display: block;
 
-  margin-top: 1px;
-font-size: 0.46em;
+  margin-top: 6px;
+font-size: 0.48em;
 font-weight: 300;
 letter-spacing: 0.42em;
 opacity: 0.92;
 }
 
 .gateway-tagline {
-  margin-top: 24px;
-margin-bottom: 24px;
+  margin-top: 22px;
+margin-bottom: 30px;
 
-  color: var(--color-bone);
-  opacity: 0.85;
+color: var(--color-bone);
+
+font-size: 1.08rem;
+line-height: 1.7;
+
+opacity: 0.9;
 }
 
 .gateway-heading {
-  margin-bottom: 24px;
+  .gateway-heading {
+    margin-bottom: 30px;
 
-  color: var(--color-bone);
+    color: var(--color-bone);
+
+    font-size: 2rem;
+    font-weight: 600;
+
+    letter-spacing: -0.02em;
+}
 }
 
 .divider {
-  width:150px;
-height:1px;
+  width: 170px;
+height: 1px;
 
-margin:14px auto 34px;
+margin: 18px auto 42px;
 
-background:rgba(245,235,217,.35);
+background: rgba(245, 235, 217, 0.28);
 }
