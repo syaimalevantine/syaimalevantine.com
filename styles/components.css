@@ -149,15 +149,15 @@ Language Gateway
   align-items: center;
 
   text-align: center;
+  transform: translateY(-40px);
 }
 
 .gateway-logo {
-  width: 120px;
-  height: auto;
+    width: 128px;
+    height: auto;
 
-  margin-bottom: 12px;
+    margin-bottom: 8px;
 }
-
 .gateway-title {
   margin: 0;
 
@@ -173,20 +173,16 @@ Language Gateway
 .gateway-title span {
   display: block;
 
-  margin-top: 2px;
-
-  font-size: 0.44em;
-
-  font-weight: 300;
-
-  letter-spacing: 0.46em;
-
-  opacity: 0.88;
+  margin-top: 1px;
+font-size: 0.46em;
+font-weight: 300;
+letter-spacing: 0.42em;
+opacity: 0.92;
 }
 
 .gateway-tagline {
-  margin-top: 18px;
-  margin-bottom: 22px;
+  margin-top: 24px;
+margin-bottom: 24px;
 
   color: var(--color-bone);
   opacity: 0.85;
@@ -199,10 +195,10 @@ Language Gateway
 }
 
 .divider {
-  width: 120px;
-  height: 1px;
+  width:150px;
+height:1px;
 
-  margin: 12px auto 32px;
+margin:14px auto 34px;
 
-  background: rgba(245, 235, 217, 0.25);
+background:rgba(245,235,217,.35);
 }
