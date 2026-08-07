@@ -1,0 +1,117 @@
+/*
+=========================================
+Syaima Levantine Components
+Version: 1.0
+Status: LOCKED
+=========================================
+*/
+
+/* =====================================
+   Buttons
+===================================== */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 44px;
+  padding: 12px 24px;
+
+  border: none;
+  border-radius: var(--radius-md);
+
+  cursor: pointer;
+
+  font-family: var(--font-family);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-medium);
+  line-height: 1;
+
+  text-decoration: none;
+  white-space: nowrap;
+
+  transition:
+    background-color var(--transition-normal),
+    color var(--transition-normal),
+    border-color var(--transition-normal),
+    opacity var(--transition-normal);
+}
+
+/* =====================================
+   Primary Button
+===================================== */
+
+.btn-primary {
+  background-color: var(--color-bone);
+  color: var(--color-charcoal);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-bone-hover);
+}
+
+/* =====================================
+   Secondary Button
+===================================== */
+
+.btn-secondary {
+  background: transparent;
+  color: var(--color-bone);
+
+  border: 1px solid rgba(245, 235, 217, 0.35);
+}
+
+.btn-secondary:hover {
+  background: rgba(245, 235, 217, 0.08);
+}
+
+/* =====================================
+   Ghost Button
+===================================== */
+
+.btn-ghost {
+  background: transparent;
+  color: inherit;
+}
+
+.btn-ghost:hover {
+  opacity: 0.75;
+}
+
+/* =====================================
+   Text Button
+===================================== */
+
+.btn-text {
+  padding: 0;
+  min-height: auto;
+
+  background: transparent;
+
+  color: var(--color-primary);
+}
+
+.btn-text:hover {
+  color: var(--color-accent);
+}
+
+/* =====================================
+   Focus State
+===================================== */
+
+.btn:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+/* =====================================
+   Disabled
+===================================== */
+
+.btn:disabled,
+.btn.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
