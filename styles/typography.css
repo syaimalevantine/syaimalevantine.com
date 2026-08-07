@@ -1,0 +1,141 @@
+/*
+=========================================
+Syaima Levantine Typography
+Version: 1.0
+Status: LOCKED
+=========================================
+*/
+
+/* =====================================
+   Base
+===================================== */
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height);
+
+  color: var(--color-text-primary);
+  background: var(--color-background);
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  margin: 0;
+}
+
+/* =====================================
+   Headings
+===================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+
+  color: var(--color-text-primary);
+
+  line-height: 1.5;
+}
+
+/* Homepage Hero */
+
+h1 {
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-regular);
+  letter-spacing: .28em;
+  text-transform: uppercase;
+}
+
+/* Article Section Title */
+
+h2 {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-bold);
+}
+
+/* Small Heading */
+
+h3 {
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-semibold);
+}
+
+/* =====================================
+   Paragraph
+===================================== */
+
+p {
+  margin: 0 0 var(--space-md);
+
+  color: var(--color-text-primary);
+
+  font-size: var(--font-size-body);
+
+  line-height: var(--line-height);
+}
+
+/* =====================================
+   Lists
+===================================== */
+
+ul,
+ol {
+  margin: 0 0 var(--space-md);
+  padding-left: var(--space-lg);
+}
+
+li {
+  margin-bottom: var(--space-xs);
+  line-height: var(--line-height);
+}
+
+/* =====================================
+   Links
+===================================== */
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--color-accent);
+}
+
+/* =====================================
+   Strong
+===================================== */
+
+strong {
+  font-weight: var(--font-weight-bold);
+}
+
+/* =====================================
+   Small
+===================================== */
+
+small {
+  color: var(--color-text-secondary);
+}
+
+/* =====================================
+   Selection
+===================================== */
+
+::selection {
+  background: var(--color-bone);
+  color: var(--color-charcoal);
+}
