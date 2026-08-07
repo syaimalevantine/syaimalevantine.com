@@ -1,0 +1,101 @@
+/*
+=========================================
+Syaima Levantine Design Tokens
+Version: 1.0
+Status: LOCKED
+=========================================
+*/
+
+:root {
+
+  /* =====================================
+     BRAND COLORS
+  ===================================== */
+
+  --color-primary: #5F5225;
+  --color-hero: #141708;
+  --color-bone: #F5EBD9;
+  --color-accent: #AA8E51;
+  --color-stone: #8A7036;
+  --color-charcoal: #222222;
+
+  /* =====================================
+     LIGHT THEME
+  ===================================== */
+
+  --color-background: #F8F6F2;
+  --color-surface: #FFFFFF;
+
+  --color-text-primary: #222222;
+  --color-text-secondary: #666666;
+
+  --color-border: #E7E2D8;
+
+  /* =====================================
+     TYPOGRAPHY
+  ===================================== */
+
+  --font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "SF Pro Display",
+    "Segoe UI",
+    sans-serif;
+
+  --font-size-body: 12px;
+
+  --font-size-h1: 16px;
+
+  --font-size-h2: 12px;
+
+  --font-size-h3: 12px;
+
+  --line-height: 1.8;
+
+  /* =====================================
+     FONT WEIGHT
+  ===================================== */
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* =====================================
+     SPACING
+  ===================================== */
+
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 32px;
+  --space-xl: 48px;
+  --space-2xl: 64px;
+  --space-hero: 96px;
+
+  /* =====================================
+     BORDER RADIUS
+  ===================================== */
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-pill: 999px;
+
+  /* =====================================
+     SHADOW
+  ===================================== */
+
+  --shadow-soft:
+    0 6px 18px rgba(0,0,0,.08);
+
+  /* =====================================
+     TRANSITION
+  ===================================== */
+
+  --transition-fast: .2s ease;
+
+  --transition-normal: .3s ease;
+
+}
