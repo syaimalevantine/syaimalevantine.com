@@ -1,0 +1,150 @@
+/*
+=========================================
+Syaima Levantine Layout
+Version: 1.0
+Status: LOCKED
+=========================================
+*/
+
+/* =====================================
+   Reset
+===================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* =====================================
+   Images
+===================================== */
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* =====================================
+   Main Container
+===================================== */
+
+.container {
+  width: min(100% - 2rem, 1200px);
+  margin-inline: auto;
+}
+
+/* =====================================
+   Reading Width
+===================================== */
+
+.content,
+.article {
+  max-width: 680px;
+  margin-inline: auto;
+}
+
+/* =====================================
+   Sections
+===================================== */
+
+.section {
+  padding-block: var(--space-2xl);
+}
+
+.section-sm {
+  padding-block: var(--space-lg);
+}
+
+.section-lg {
+  padding-block: var(--space-hero);
+}
+
+/* =====================================
+   Hero
+===================================== */
+
+.hero {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  padding: var(--space-hero) var(--space-sm);
+}
+
+/* =====================================
+   Flex
+===================================== */
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* =====================================
+   Grid
+===================================== */
+
+.grid {
+  display: grid;
+  gap: var(--space-lg);
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* =====================================
+   Vertical Rhythm
+===================================== */
+
+.article > * + * {
+  margin-top: var(--space-md);
+}
+
+/* =====================================
+   Responsive
+===================================== */
+
+@media (max-width: 768px) {
+
+  .container {
+    width: min(100% - 1.5rem, 1200px);
+  }
+
+  .grid-2,
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    min-height: auto;
+    padding-block: var(--space-2xl);
+  }
+
+}
