@@ -195,15 +195,13 @@ opacity: 0.9;
 }
 
 .gateway-heading {
-    margin-bottom: 30px;
+    margin-bottom: 28px;
 
-    color: #f5ebd9;
+    color: var(--color-bone);
 
-    font-size: 1.65rem;
+    font-size: 1.35rem;
     font-weight: 600;
-
-    letter-spacing: -0.02em;
-
+    letter-spacing: -0.01em;
     opacity: 1;
 }
 }
@@ -242,7 +240,7 @@ background: rgba(245, 235, 217, 0.28);
     color: var(--color-bone);
     text-decoration: none;
 
-    font-size: 1.05rem;
+    font-size: 1.18rem;
     line-height: 1.5;
     font-weight: 400;
 
