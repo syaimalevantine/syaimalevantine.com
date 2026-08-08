@@ -222,26 +222,25 @@ background: rgba(245, 235, 217, 0.28);
 .language-list {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
 
     gap: 10px;
 
     width: 100%;
-    max-width: 420px;
+    max-width: 390px;
 
     margin: 0 auto;
 }
 
 .language-card {
     width: 100%;
-    min-height: 54px;
+    min-height: 56px;
 
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
-    gap: 10px;
-
-    padding: 0 18px;
+    padding: 0 20px;
 
     border: 1px solid rgba(245, 235, 217, 0.22);
     border-radius: var(--radius-md);
