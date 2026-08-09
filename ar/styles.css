@@ -506,13 +506,16 @@ html[lang="ar"] .id-hero-content {
 html[lang="ar"] .id-hero h1 {
   width: 100%;
   max-width: 100%;
+  min-width: 0;
   box-sizing: border-box;
 
-  font-size: clamp(2rem, 8vw, 3.2rem);
-  line-height: 1.35;
+  font-size: clamp(1.9rem, 8vw, 2.8rem);
+  line-height: 1.4;
 
+  white-space: normal;
   overflow-wrap: anywhere;
   word-break: normal;
+  text-align: right;
 }
 
 html[lang="ar"] .hero-description {
