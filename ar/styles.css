@@ -472,7 +472,10 @@ html[lang="ar"] body {
 html[lang="ar"] .site-brand {
   direction: rtl;
 }
-
+html[lang="ar"] .site-brand span {
+  letter-spacing: 0;
+  text-transform: none;
+}
 html[lang="ar"] .site-nav {
   direction: rtl;
 }
@@ -530,6 +533,8 @@ html[lang="ar"] .hero-description {
 
 html[lang="ar"] .eyebrow {
   max-width: 100%;
+  letter-spacing: 0;
+  text-transform: none;
 }
 
 @media (max-width: 700px) {
