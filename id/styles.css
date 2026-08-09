@@ -105,8 +105,21 @@ body {
   padding: 96px 0 88px;
 }
 
-.id-hero-content {
-  width: min(100%, var(--id-content-width));
+.id-hero {
+  padding: 96px 0 88px;
+
+  background-color: #f7f5f0;
+
+  background-image:
+    linear-gradient(
+      rgba(247, 245, 240, 0.88),
+      rgba(247, 245, 240, 0.88)
+    ),
+    url("../assets/images/hero/hero-desktop.webp");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .eyebrow {
@@ -409,6 +422,36 @@ body {
 
   .id-feature-card {
     min-height: 220px;
+  }
+
+}
+
+/* =========================================================
+   Subtle Botanical Hero — Responsive Backgrounds
+   ========================================================= */
+
+@media (max-width: 1023px) {
+
+  .id-hero {
+    background-image:
+      linear-gradient(
+        rgba(247, 245, 240, 0.88),
+        rgba(247, 245, 240, 0.88)
+      ),
+      url("../assets/images/hero/hero-tablet.webp");
+  }
+
+}
+
+@media (max-width: 700px) {
+
+  .id-hero {
+    background-image:
+      linear-gradient(
+        rgba(247, 245, 240, 0.88),
+        rgba(247, 245, 240, 0.88)
+      ),
+      url("../assets/images/hero/hero-mobile.webp");
   }
 
 }
