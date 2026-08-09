@@ -561,3 +561,23 @@ html[lang="ar"] .eyebrow {
   }
 
 }
+
+/* =========================================================
+   Arabic Typography — Word Integrity
+   ========================================================= */
+
+html[lang="ar"] body,
+html[lang="ar"] h1,
+html[lang="ar"] h2,
+html[lang="ar"] h3,
+html[lang="ar"] h4,
+html[lang="ar"] p,
+html[lang="ar"] a,
+html[lang="ar"] span,
+html[lang="ar"] li {
+    word-break: normal;
+    overflow-wrap: break-word;
+    hyphens: none;
+    white-space: normal;
+    letter-spacing: 0;
+}
