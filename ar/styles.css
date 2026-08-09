@@ -566,6 +566,7 @@ html[lang="ar"] .eyebrow {
    Arabic Typography — Word Integrity
    ========================================================= */
 
+
 html[lang="ar"] body,
 html[lang="ar"] h1,
 html[lang="ar"] h2,
@@ -580,4 +581,19 @@ html[lang="ar"] li {
     hyphens: none;
     white-space: normal;
     letter-spacing: 0;
+    
+}
+/* Arabic — Preserve whole words */
+html[lang="ar"] .article-content,
+html[lang="ar"] .article-content p,
+html[lang="ar"] .article-content h1,
+html[lang="ar"] .article-content h2,
+html[lang="ar"] .article-content h3,
+html[lang="ar"] .article-content h4,
+html[lang="ar"] .article-content a {
+  word-break: normal;
+  overflow-wrap: normal;
+  hyphens: none;
+  white-space: normal;
+  letter-spacing: 0;
 }
