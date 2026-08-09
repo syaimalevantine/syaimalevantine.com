@@ -140,6 +140,24 @@ Language Gateway
   background-repeat: no-repeat;
 }
 
+/* Tablet */
+@media (max-width: 1023px) {
+  .language-gateway {
+    background-image:
+      linear-gradient(rgba(15, 16, 12, 0.45), rgba(15, 16, 12, 0.45)),
+      url("../assets/images/hero/hero-tablet.webp");
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .language-gateway {
+    background-image:
+      linear-gradient(rgba(15, 16, 12, 0.45), rgba(15, 16, 12, 0.45)),
+      url("../assets/images/hero/hero-mobile.webp");
+  }
+}
+
 .gateway-container {
   width: 100%;
   max-width: 520px;
