@@ -296,12 +296,13 @@ body {
 }
 
 .id-feature-label {
-  font-size: 0.72rem;
-  line-height: 1.4;
+    font-size: 0.72rem;
+    line-height: 1.4;
 
-  letter-spacing: 0.14em;
+    letter-spacing: 0;
+    text-transform: none;
 
-  opacity: 0.55;
+    opacity: 0.55;
 }
 
 .id-feature-card h3 {
