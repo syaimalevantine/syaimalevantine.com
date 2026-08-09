@@ -455,3 +455,40 @@ body {
   }
 
 }
+
+/* =========================================================
+   Arabic RTL Refinement
+   ========================================================= */
+
+html[lang="ar"] {
+  direction: rtl;
+}
+
+html[lang="ar"] body {
+  direction: rtl;
+  text-align: right;
+}
+
+html[lang="ar"] .site-brand {
+  direction: rtl;
+}
+
+html[lang="ar"] .site-nav {
+  direction: rtl;
+}
+
+html[lang="ar"] .id-hero-content {
+  text-align: right;
+}
+
+html[lang="ar"] .id-feature-card {
+  text-align: right;
+}
+
+html[lang="ar"] .section-heading {
+  text-align: right;
+}
+
+html[lang="ar"] .article-placeholder {
+  text-align: center;
+}
