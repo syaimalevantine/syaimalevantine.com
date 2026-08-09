@@ -133,7 +133,7 @@ Language Gateway
 
   background-image:
     linear-gradient(rgba(15, 16, 12, 0.45), rgba(15, 16, 12, 0.45)),
-    url("../assets/images/hero/hero-desktop.PNG");
+    url("../assets/images/hero/hero-desktop.webp");
 
   background-size: cover;
   background-position: center;
