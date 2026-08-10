@@ -707,3 +707,20 @@ html[lang="ar"] .article-card > a > .article-image img {
   font-size: 17px;
   text-align: justify;
 }
+
+html[lang="ar"] .article-card {
+  max-width: 560px;
+  margin-inline: auto;
+}
+
+html[lang="ar"] .article-card .article-image {
+  width: 100%;
+  max-width: 560px;
+  margin-inline: auto;
+}
+
+html[lang="ar"] .article-card .article-image img {
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+}
