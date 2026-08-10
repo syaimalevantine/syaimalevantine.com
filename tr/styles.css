@@ -483,3 +483,7 @@ body {
 .article-notes-heading {
   margin-top: 32px;
 }
+
+.article-image {
+  margin: 32px 0;
+}
