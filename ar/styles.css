@@ -629,3 +629,7 @@ html[lang="ar"] .article-content a {
 .article-image {
   margin: 32px 0;
 }
+
+.article-content p {
+  text-align: justify;
+}
