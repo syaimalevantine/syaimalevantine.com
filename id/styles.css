@@ -527,4 +527,5 @@ body {
 
 .article-card-content > p:not(.article-meta) {
   font-size: 17px;
+  text-align: justify;
 }
