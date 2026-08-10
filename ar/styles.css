@@ -742,3 +742,16 @@ html[lang="ar"] .article-card > figure.article-image img {
   height: auto !important;
   margin: 0 !important;
 }
+html[lang="ar"] .article-card .article-image {
+  width: 320px !important;
+  max-width: 320px !important;
+  margin: 0 auto 1.5rem !important;
+  box-sizing: border-box;
+}
+
+html[lang="ar"] .article-card .article-image img {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+}
