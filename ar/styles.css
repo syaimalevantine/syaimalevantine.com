@@ -558,37 +558,38 @@ body {
 }
 
 .article-content p {
-  font-size: 18px;
-
-  line-height: 1.9;
-
-  text-align: right;
-
-  overflow-wrap: normal;
-  word-break: normal;
-  hyphens: none;
+  font-size: 17px;
+  line-height: 1.8;
+  text-align: justify;
 }
 
-.article-content h2,
-.article-content h3 {
-  font-size: 22px;
-
-  line-height: 1.6;
-
+.article-content h2 {
+  font-size: 17px;
+  line-height: 1.8;
   font-weight: 700;
-
-  letter-spacing: 0;
+  text-align: right;
 }
 
-.article-content ul,
-.article-content ol {
-  font-size: 18px;
+.article-content h3 {
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 700;
+  text-align: right;
+}
 
-  line-height: 1.9;
+.article-content ul {
+  font-size: 17px;
+  line-height: 1.8;
+}
 
-  overflow-wrap: normal;
-  word-break: normal;
-  hyphens: none;
+.article-meta {
+  font-size: 16px;
+}
+
+.section-heading > p:not(.eyebrow) {
+  font-size: 17px;
+  line-height: 1.8;
+  text-align: justify;
 }
 
 
