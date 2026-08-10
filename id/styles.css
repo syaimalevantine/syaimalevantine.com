@@ -463,6 +463,8 @@ body {
   align-items: center;
   gap: 12px;
   flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 24px;
 }
 
 .article-author {
