@@ -719,3 +719,26 @@ html[lang="ar"] .article-card > a > .article-image img {
   font-size: 17px;
   text-align: justify;
 }
+html[lang="ar"] .article-card {
+  width: 100%;
+  max-width: 560px;
+  margin-inline: auto;
+}
+
+html[lang="ar"] .article-card .article-image,
+html[lang="ar"] .article-card > figure.article-image {
+  display: block;
+  width: min(320px, 100%) !important;
+  max-width: 320px !important;
+  margin: 0 auto 1.5rem !important;
+  box-sizing: border-box;
+}
+
+html[lang="ar"] .article-card .article-image img,
+html[lang="ar"] .article-card > figure.article-image img {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+}
