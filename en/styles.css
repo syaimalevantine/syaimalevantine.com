@@ -479,3 +479,7 @@ body {
   object-fit: contain;
   flex-shrink: 0;
 }
+
+.article-notes-heading {
+  margin-top: 32px;
+}
