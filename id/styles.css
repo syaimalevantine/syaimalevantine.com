@@ -481,9 +481,7 @@ body {
 }
 
 .article-notes-heading {
-  font-size: 17px;
-  line-height: 1.8;
-  font-weight: 700;
+  margin-top: 40px;
 }
 
 .article-image {
