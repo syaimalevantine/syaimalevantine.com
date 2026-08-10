@@ -8,44 +8,15 @@
     name="viewport"
     content="width=device-width, initial-scale=1.0">
 
-  <title>شيماء ليفانتين | الذكاء الاصطناعي، تصميم الأنماط، والميكروستوك</title>
+  <title>المقالات | Syaima Levantine</title>
 
   <meta
     name="description"
-    content="معلومات وأدلة وأدوات عملية حول الذكاء الاصطناعي, تصميم الأنماط، الميكروستوك والإنتاجية.">
-
-  <link
-    rel="canonical"
-    href="https://syaimalevantine.com/ar/">
-
-  <link
-    rel="alternate"
-    hreflang="id"
-    href="https://syaimalevantine.com/id/">
-
-  <link
-    rel="alternate"
-    hreflang="en"
-    href="https://syaimalevantine.com/en/">
-
-  <link
-    rel="alternate"
-    hreflang="tr"
-    href="https://syaimalevantine.com/tr/">
-
-  <link
-    rel="alternate"
-    hreflang="ar"
-    href="https://syaimalevantine.com/ar/">
-
-  <link
-    rel="alternate"
-    hreflang="x-default"
-    href="https://syaimalevantine.com/">
+    content="مقالات Syaima Levantine حول الذكاء الاصطناعي وتصميم الأنماط والمايكروستوك والإنتاجية.">
 
   <meta
     name="author"
-    content="شيماء ليفانتين">
+    content="Syaima Levantine">
 
   <meta
     name="theme-color"
@@ -54,43 +25,76 @@
   <link
     rel="icon"
     type="image/webp"
-    href="../assets/images/logo/logo-symbol.webp">
+    href="../../assets/images/logo/logo-symbol.webp">
 
   <link
     rel="stylesheet"
-    href="../styles/tokens.css">
+    href="../../styles/tokens.css">
 
   <link
     rel="stylesheet"
-    href="../styles/typography.css">
+    href="../../styles/typography.css">
 
   <link
     rel="stylesheet"
-    href="../styles/layout.css">
+    href="../../styles/layout.css">
 
   <link
     rel="stylesheet"
-    href="../styles/components.css">
+    href="../../styles/components.css">
 
   <link
     rel="stylesheet"
     href="styles.css">
 
   <style>
-    .article-card .article-image {
-      width: 320px;
-      max-width: 320px;
-      margin: 0 auto 1.5rem;
+    /* =====================================================
+       Arabic Article Hub — Image Safety
+       ===================================================== */
+
+    html[lang="ar"] .article-card {
+      width: 100%;
+      max-width: 760px;
+      margin-inline: auto;
     }
 
-    .article-card .article-image img {
+    html[lang="ar"] .article-card .article-image {
+      display: block;
+      width: min(320px, 100%);
+      max-width: 320px;
+      margin: 0 auto 1.5rem;
+      box-sizing: border-box;
+    }
+
+    html[lang="ar"] .article-card .article-image img {
       display: block;
       width: 100%;
+      max-width: 100%;
       height: auto;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    html[lang="ar"] .article-card-content {
+      width: 100%;
+      box-sizing: border-box;
+      text-align: right;
+    }
+
+    html[lang="ar"] body,
+    html[lang="ar"] h1,
+    html[lang="ar"] h2,
+    html[lang="ar"] h3,
+    html[lang="ar"] p,
+    html[lang="ar"] a,
+    html[lang="ar"] span {
+      word-break: normal;
+      hyphens: none;
     }
   </style>
 
 </head>
+
 
 <body>
 
@@ -104,7 +108,7 @@
         aria-label="شيماء ليفانتين - الصفحة الرئيسية">
 
         <img
-          src="../assets/images/logo/logo-symbol.webp"
+          src="../../assets/images/logo/logo-symbol.webp"
           alt="">
 
         <span>
@@ -112,6 +116,7 @@
         </span>
 
       </a>
+
 
       <nav
         class="site-nav"
@@ -138,49 +143,6 @@
 
   <main>
 
-    <section class="id-hero">
-
-      <div class="container">
-
-        <div class="id-hero-content">
-
-          <p class="eyebrow">
-            شيماء ليفانتين
-          </p>
-
-          <h1>
-            الذكاء الاصطناعي، تصميم الأنماط،
-            الميكروستوك والإنتاجية
-          </h1>
-
-          <p class="hero-description">
-            معلومات وأدلة وأدوات عملية تساعد المبدعين
-            على العمل بذكاء أكبر باستخدام الذكاء الاصطناعي.
-          </p>
-
-          <div class="hero-actions">
-
-            <a
-              class="btn btn-primary"
-              href="/ar/article/">
-              اقرأ المقالات
-            </a>
-
-            <a
-              class="btn btn-secondary"
-              href="/ar/products.html">
-              استكشف المنتجات
-            </a>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
     <section class="id-section">
 
       <div class="container">
@@ -188,93 +150,17 @@
         <div class="section-heading">
 
           <p class="eyebrow">
-            استكشف
+            المقالات
           </p>
 
-          <h2>
-            ماذا ستجد هنا؟
-          </h2>
+          <h1>
+            رؤى وأدلة
+          </h1>
 
           <p>
-            محتوى وأدوات مصممة لدعم العمل الإبداعي
-            والإنتاج والمهام اليومية.
-          </p>
-
-        </div>
-
-
-        <div class="id-feature-grid">
-
-          <a
-            class="id-feature-card"
-            href="/ar/article/">
-
-            <span class="id-feature-label">
-              المقالات
-            </span>
-
-            <h3>
-              رؤى وأدلة
-            </h3>
-
-            <p>
-              تعرّف على الذكاء الاصطناعي, تصميم الأنماط،
-              الميكروستوك واستراتيجيات المحتوى وسير العمل الإبداعي.
-            </p>
-
-            <span class="id-feature-link">
-              اقرأ المقالات ←
-            </span>
-
-          </a>
-
-
-          <a
-            class="id-feature-card"
-            href="/ar/products.html">
-
-            <span class="id-feature-label">
-              المنتجات
-            </span>
-
-            <h3>
-              أدوات للمبدعين
-            </h3>
-
-            <p>
-              اكتشف الأدوات والمنتجات الرقمية المصممة
-              لجعل عملك أسرع وأسهل.
-            </p>
-
-            <span class="id-feature-link">
-              استكشف المنتجات ←
-            </span>
-
-          </a>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <section class="id-section id-section-soft">
-
-      <div class="container">
-
-        <div class="section-heading">
-
-          <p class="eyebrow">
-            أحدث المقالات
-          </p>
-
-          <h2>
-            من شيماء ليفانتين
-          </h2>
-
-          <p>
-            ستظهر المقالات الجديدة هنا.
+            اكتشف المقالات حول الذكاء الاصطناعي،
+            وتصميم الأنماط، والمايكروستوك،
+            والإنتاجية، وسير العمل الإبداعي.
           </p>
 
         </div>
@@ -288,11 +174,12 @@
             <figure class="article-image">
 
               <img
-                src="../assets/images/blog/microstock-ai-seamless-pattern.webp"
+                src="../../assets/images/blog/microstock-ai-seamless-pattern.webp"
                 alt="مجموعة من الأنماط المتكررة بسلاسة تم إنشاؤها باستخدام الذكاء الاصطناعي"
                 loading="lazy">
 
             </figure>
+
 
             <div class="article-card-content">
 
@@ -300,13 +187,14 @@
                 مقال
               </p>
 
-              <h3>
+              <h2>
                 كيفية إنشاء نمط متكرر بسلاسة باستخدام الذكاء الاصطناعي للمبتدئين
-              </h3>
+              </h2>
 
               <p>
-                تعرّف على كيفية تحويل صورة بسيطة من معرض هاتفك إلى نمط متكرر
-                بسلاسة باستخدام الذكاء الاصطناعي وتطويرها إلى أصل رقمي.
+                تعرّف على كيفية تحويل صورة بسيطة من معرض هاتفك
+                إلى نمط متكرر بسلاسة باستخدام الذكاء الاصطناعي
+                وتطويرها إلى أصل رقمي.
               </p>
 
               <span class="btn btn-text">
@@ -337,6 +225,7 @@
     </div>
 
   </footer>
+
 
 </body>
 
