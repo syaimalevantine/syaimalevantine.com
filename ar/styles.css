@@ -724,3 +724,26 @@ html[lang="ar"] .article-card .article-image img {
   max-width: 560px;
   height: auto;
 }
+
+html[lang="ar"] .article-card {
+  display: block;
+  width: 100%;
+  max-width: 760px;
+  margin-inline: auto;
+}
+
+html[lang="ar"] .article-card .article-image {
+  width: 100%;
+  margin: 0 0 24px;
+}
+
+html[lang="ar"] .article-card .article-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+html[lang="ar"] .article-card-content {
+  width: 100%;
+  text-align: right;
+}
