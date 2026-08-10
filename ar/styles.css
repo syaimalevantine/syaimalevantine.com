@@ -597,3 +597,27 @@ html[lang="ar"] .article-content a {
   white-space: normal;
   letter-spacing: 0;
 }
+
+/* Article author metadata */
+
+.article-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+
+.article-author {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.article-author-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
