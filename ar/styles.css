@@ -631,10 +631,6 @@ html[lang="ar"] .article-content a {
 }
 
 .article-content p {
-  text-align: justify;
-}
-
-.article-content p {
     font-size: 17px;
     line-height: 1.8;
     text-align: justify;
