@@ -625,3 +625,7 @@ html[lang="ar"] .article-content a {
 .article-notes-heading {
   margin-top: 32px;
 }
+
+.article-image {
+  margin: 32px 0;
+}
