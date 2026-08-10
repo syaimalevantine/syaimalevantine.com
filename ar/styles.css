@@ -639,6 +639,18 @@ html[lang="ar"] .article-card {
   margin-inline: auto;
 }
 
+html[lang="ar"] .article-card .article-image {
+  width: 320px;
+  max-width: 320px;
+  margin: 0 auto 1.5rem;
+}
+
+html[lang="ar"] .article-card .article-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 html[lang="ar"] .article-card > a {
   display: block;
 }
