@@ -621,3 +621,7 @@ html[lang="ar"] .article-content a {
   object-fit: contain;
   flex-shrink: 0;
 }
+
+.article-notes-heading {
+  margin-top: 32px;
+}
