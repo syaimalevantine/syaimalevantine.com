@@ -623,11 +623,15 @@ html[lang="ar"] .article-content a {
 }
 
 .article-notes-heading {
-  margin-top: 32px;
+  margin-top: 40px;
+}
+
+.article-cta {
+  margin: 40px 0;
 }
 
 .article-image {
-  margin: 32px 0;
+  margin: 40px 0;
 }
 
 .article-content p {
