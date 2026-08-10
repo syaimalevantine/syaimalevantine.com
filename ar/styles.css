@@ -633,7 +633,9 @@ html[lang="ar"] .article-content a {
 
   letter-spacing: 0;
 }
-
+html[lang="ar"] .article-content p {
+  text-align: justify;
+}
 
 /* =========================================================
    Footer
