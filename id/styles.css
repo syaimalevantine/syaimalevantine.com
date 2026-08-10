@@ -481,7 +481,9 @@ body {
 }
 
 .article-notes-heading {
-  margin-top: 32px;
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 700;
 }
 
 .article-image {
@@ -495,8 +497,15 @@ body {
 }
 
 .article-content h2 {
-  font-size: 21px;
-  line-height: 1.35;
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 700;
+}
+
+.article-content h3 {
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 700;
 }
 
 .article-content ul {
@@ -510,5 +519,6 @@ body {
 
 .section-heading > p:not(.eyebrow) {
   font-size: 17px;
-  line-height: 1.7;
+  line-height: 1.8;
+  text-align: justify;
 }
