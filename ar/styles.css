@@ -1,6 +1,6 @@
 /* =========================================================
-   Syaima Levantine — Indonesian Homepage
-   Page-specific styles
+   Syaima Levantine — Arabic Page
+   Clean page-specific styles
    ========================================================= */
 
 :root {
@@ -14,6 +14,15 @@
 /* =========================================================
    Base
    ========================================================= */
+
+html[lang="ar"] {
+  direction: rtl;
+}
+
+html[lang="ar"] body {
+  direction: rtl;
+  text-align: right;
+}
 
 body {
   margin: 0;
@@ -59,6 +68,8 @@ body {
 
   color: inherit;
   text-decoration: none;
+
+  direction: rtl;
 }
 
 .site-brand img {
@@ -70,8 +81,12 @@ body {
 
 .site-brand span {
   font-size: 0.9rem;
-  letter-spacing: 0.18em;
+
+  letter-spacing: 0;
+
   white-space: nowrap;
+
+  text-transform: none;
 }
 
 .site-nav {
@@ -79,6 +94,8 @@ body {
   align-items: center;
 
   gap: 24px;
+
+  direction: rtl;
 }
 
 .site-nav a {
@@ -103,10 +120,6 @@ body {
 
 .id-hero {
   padding: 96px 0 88px;
-}
-
-.id-hero {
-  padding: 96px 0 88px;
 
   background-color: #f7f5f0;
 
@@ -122,39 +135,62 @@ body {
   background-repeat: no-repeat;
 }
 
+.id-hero-content {
+  width: 100%;
+  max-width: 100%;
+
+  box-sizing: border-box;
+
+  text-align: right;
+}
+
 .eyebrow {
+  max-width: 100%;
+
   margin: 0 0 16px;
 
   font-size: 0.78rem;
-  line-height: 1.4;
+  line-height: 1.5;
 
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
+  letter-spacing: 0;
+
+  text-transform: none;
 
   opacity: 0.6;
 }
 
 .id-hero h1 {
+  width: 100%;
   max-width: 720px;
 
   margin: 0;
 
-  font-size: clamp(2.5rem, 6vw, 4.8rem);
-  line-height: 1.05;
+  font-size: clamp(2.35rem, 7vw, 4.4rem);
+  line-height: 1.35;
+
   font-weight: 500;
 
-  letter-spacing: -0.035em;
+  letter-spacing: 0;
+
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
 }
 
 .hero-description {
+  width: 100%;
   max-width: 620px;
 
   margin: 28px 0 0;
 
   font-size: 1.15rem;
-  line-height: 1.7;
+  line-height: 1.9;
 
   opacity: 0.72;
+
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
 }
 
 .hero-actions {
@@ -173,6 +209,7 @@ body {
 
 .btn {
   display: inline-flex;
+
   align-items: center;
   justify-content: center;
 
@@ -229,29 +266,42 @@ body {
 }
 
 .section-heading {
+  width: 100%;
   max-width: var(--id-content-width);
 
   margin-bottom: 36px;
+
+  text-align: right;
+
+  box-sizing: border-box;
 }
 
 .section-heading h2 {
   margin: 0;
 
   font-size: clamp(1.8rem, 4vw, 2.8rem);
-  line-height: 1.15;
+
+  line-height: 1.35;
+
   font-weight: 500;
 
-  letter-spacing: -0.025em;
+  letter-spacing: 0;
 }
 
-.section-heading p:last-child {
+.section-heading > p:not(.eyebrow) {
   max-width: 620px;
 
   margin-top: 16px;
 
-  line-height: 1.7;
+  font-size: 1.05rem;
+
+  line-height: 1.9;
 
   opacity: 0.7;
+
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
 }
 
 
@@ -270,6 +320,7 @@ body {
 
 .id-feature-card {
   display: flex;
+
   flex-direction: column;
 
   min-height: 260px;
@@ -277,16 +328,22 @@ body {
   padding: 28px;
 
   border: 1px solid rgba(23, 23, 19, 0.1);
+
   border-radius: var(--id-radius);
 
   background: rgba(255, 255, 255, 0.45);
 
   color: inherit;
+
   text-decoration: none;
+
+  text-align: right;
 
   transition:
     transform 0.2s ease,
     border-color 0.2s ease;
+
+  box-sizing: border-box;
 }
 
 .id-feature-card:hover {
@@ -296,33 +353,42 @@ body {
 }
 
 .id-feature-label {
-    font-size: 0.72rem;
-    line-height: 1.4;
+  font-size: 0.78rem;
 
-    letter-spacing: 0;
-    text-transform: none;
+  line-height: 1.5;
 
-    opacity: 0.55;
+  letter-spacing: 0;
+
+  text-transform: none;
+
+  opacity: 0.55;
 }
 
 .id-feature-card h3 {
   margin: 22px 0 0;
 
   font-size: 1.5rem;
-  line-height: 1.25;
+
+  line-height: 1.45;
+
   font-weight: 500;
+
+  letter-spacing: 0;
 }
 
 .id-feature-card p {
   margin: 14px 0 0;
 
-  line-height: 1.7;
+  font-size: 1rem;
+
+  line-height: 1.8;
 
   opacity: 0.7;
 }
 
 .id-feature-link {
   margin-top: auto;
+
   padding-top: 28px;
 
   font-size: 0.92rem;
@@ -337,6 +403,7 @@ body {
   padding: 32px;
 
   border: 1px dashed rgba(23, 23, 19, 0.18);
+
   border-radius: var(--id-radius);
 
   text-align: center;
@@ -346,6 +413,225 @@ body {
   margin: 0 0 18px;
 
   opacity: 0.65;
+}
+
+
+/* =========================================================
+   Article Index Cards
+   ========================================================= */
+
+.article-card {
+  width: 100%;
+  max-width: 760px;
+
+  margin-inline: auto;
+
+  text-align: right;
+
+  box-sizing: border-box;
+}
+
+.article-card > a {
+  display: block;
+
+  color: inherit;
+
+  text-decoration: none;
+}
+
+.article-card .article-image,
+.article-card > a > .article-image,
+.article-card > figure.article-image {
+  display: block;
+
+  width: 320px;
+  max-width: 100%;
+
+  margin: 0 auto 1.5rem;
+
+  box-sizing: border-box;
+}
+
+.article-card .article-image img,
+.article-card > a > .article-image img,
+.article-card > figure.article-image img {
+  display: block;
+
+  width: 100%;
+  max-width: 100%;
+
+  height: auto;
+
+  margin: 0;
+}
+
+.article-card-content {
+  width: 100%;
+
+  text-align: right;
+
+  box-sizing: border-box;
+}
+
+.article-card-content h2,
+.article-card-content h3 {
+  margin-top: 0;
+
+  font-size: 22px;
+
+  line-height: 1.6;
+
+  font-weight: 700;
+
+  letter-spacing: 0;
+}
+
+.article-card-content > p:not(.article-meta) {
+  font-size: 18px;
+
+  line-height: 1.9;
+
+  text-align: right;
+
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
+}
+
+.article-meta {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  flex-wrap: wrap;
+
+  margin-top: 20px;
+  margin-bottom: 24px;
+
+  font-size: 16px;
+}
+
+.article-author {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 8px;
+}
+
+.article-author-icon {
+  width: 20px;
+  height: 20px;
+
+  object-fit: contain;
+
+  flex-shrink: 0;
+}
+
+.article-notes-heading {
+  margin-top: 40px;
+}
+
+.article-cta {
+  margin: 40px 0;
+}
+
+.article-image {
+  margin: 40px 0;
+}
+
+
+/* =========================================================
+   Article Content
+   ========================================================= */
+
+.article-content {
+  width: 100%;
+
+  text-align: right;
+
+  direction: rtl;
+
+  box-sizing: border-box;
+}
+
+.article-content p {
+  font-size: 18px;
+
+  line-height: 1.9;
+
+  text-align: right;
+
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
+}
+
+.article-content h2,
+.article-content h3 {
+  font-size: 22px;
+
+  line-height: 1.6;
+
+  font-weight: 700;
+
+  letter-spacing: 0;
+}
+
+.article-content ul,
+.article-content ol {
+  font-size: 18px;
+
+  line-height: 1.9;
+
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
+}
+
+
+/* =========================================================
+   Arabic Word Integrity
+   ========================================================= */
+
+html[lang="ar"] body,
+html[lang="ar"] h1,
+html[lang="ar"] h2,
+html[lang="ar"] h3,
+html[lang="ar"] h4,
+html[lang="ar"] p,
+html[lang="ar"] a,
+html[lang="ar"] span,
+html[lang="ar"] li {
+  word-break: normal;
+
+  overflow-wrap: normal;
+
+  hyphens: none;
+
+  white-space: normal;
+
+  letter-spacing: 0;
+}
+
+html[lang="ar"] .article-content,
+html[lang="ar"] .article-content p,
+html[lang="ar"] .article-content h1,
+html[lang="ar"] .article-content h2,
+html[lang="ar"] .article-content h3,
+html[lang="ar"] .article-content h4,
+html[lang="ar"] .article-content a {
+  word-break: normal;
+
+  overflow-wrap: normal;
+
+  hyphens: none;
+
+  white-space: normal;
+
+  letter-spacing: 0;
 }
 
 
@@ -371,8 +657,22 @@ body {
 
 
 /* =========================================================
-   Mobile
+   Responsive
    ========================================================= */
+
+@media (max-width: 1023px) {
+
+  .id-hero {
+    background-image:
+      linear-gradient(
+        rgba(247, 245, 240, 0.88),
+        rgba(247, 245, 240, 0.88)
+      ),
+      url("../assets/images/hero/hero-tablet.webp");
+  }
+
+}
+
 
 @media (max-width: 700px) {
 
@@ -389,6 +689,7 @@ body {
 
   .site-header .container {
     align-items: flex-start;
+
     flex-direction: column;
   }
 
@@ -398,18 +699,36 @@ body {
 
   .id-hero {
     padding: 68px 0 64px;
+
+    overflow-x: hidden;
+  }
+
+  .id-hero-content {
+    width: 100%;
+    max-width: 100%;
   }
 
   .id-hero h1 {
-    font-size: clamp(2.35rem, 12vw, 3.4rem);
+    width: 100%;
+    max-width: 100%;
+
+    font-size: clamp(2rem, 8vw, 3.2rem);
+
+    line-height: 1.4;
   }
 
   .hero-description {
-    font-size: 1.05rem;
+    width: 100%;
+    max-width: 100%;
+
+    font-size: 1rem;
+
+    line-height: 1.9;
   }
 
   .hero-actions {
     flex-direction: column;
+
     align-items: stretch;
   }
 
@@ -425,333 +744,54 @@ body {
     min-height: 220px;
   }
 
-}
-
-/* =========================================================
-   Subtle Botanical Hero — Responsive Backgrounds
-   ========================================================= */
-
-@media (max-width: 1023px) {
-
-  .id-hero {
-    background-image:
-      linear-gradient(
-        rgba(247, 245, 240, 0.88),
-        rgba(247, 245, 240, 0.88)
-      ),
-      url("../assets/images/hero/hero-tablet.webp");
+  .section-heading {
+    max-width: 100%;
   }
 
-}
+  .section-heading h2 {
+    font-size: 1.9rem;
 
-@media (max-width: 700px) {
-
-  .id-hero {
-    background-image:
-      linear-gradient(
-        rgba(247, 245, 240, 0.88),
-        rgba(247, 245, 240, 0.88)
-      ),
-      url("../assets/images/hero/hero-mobile.webp");
+    line-height: 1.45;
   }
 
-}
+  .section-heading > p:not(.eyebrow) {
+    font-size: 1rem;
 
-/* =========================================================
-   Arabic RTL Refinement
-   ========================================================= */
-
-html[lang="ar"] {
-  direction: rtl;
-}
-
-html[lang="ar"] body {
-  direction: rtl;
-  text-align: right;
-}
-
-html[lang="ar"] .site-brand {
-  direction: rtl;
-}
-html[lang="ar"] .site-brand span {
-  letter-spacing: 0;
-  text-transform: none;
-}
-html[lang="ar"] .site-nav {
-  direction: rtl;
-}
-
-html[lang="ar"] .id-hero-content {
-  text-align: right;
-}
-
-html[lang="ar"] .id-feature-card {
-  text-align: right;
-}
-
-html[lang="ar"] .section-heading {
-  text-align: right;
-}
-
-html[lang="ar"] .article-placeholder {
-  text-align: center;
-}
-
-/* =========================================================
-   Arabic RTL Typography — Mobile Safe
-   ========================================================= */
-
-html[lang="ar"] .id-hero-content {
-  width: 100%;
-  max-width: 100%;
-  box-sizing: border-box;
-}
-
-html[lang="ar"] .id-hero h1 {
-  width: 100%;
-  max-width: 100%;
-  min-width: 0;
-  box-sizing: border-box;
-
-  font-size: clamp(1.9rem, 8vw, 2.8rem);
-  line-height: 1.4;
-
-  white-space: normal;
-  overflow-wrap: anywhere;
-  word-break: normal;
-  text-align: right;
-}
-
-html[lang="ar"] .hero-description {
-  width: 100%;
-  max-width: 100%;
-
-  font-size: 1rem;
-  line-height: 1.9;
-
-  overflow-wrap: break-word;
-}
-
-html[lang="ar"] .eyebrow {
-  max-width: 100%;
-  letter-spacing: 0;
-  text-transform: none;
-}
-
-@media (max-width: 700px) {
-
-  html[lang="ar"] .id-hero {
-    overflow-x: hidden;
+    line-height: 1.9;
   }
 
-  html[lang="ar"] .id-hero-content {
+  .article-card {
     width: 100%;
     max-width: 100%;
   }
 
-  html[lang="ar"] .id-hero h1 {
-    font-size: clamp(1.9rem, 8vw, 2.8rem);
-    line-height: 1.4;
+  .article-card .article-image,
+  .article-card > a > .article-image,
+  .article-card > figure.article-image {
+    width: 320px;
     max-width: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  html[lang="ar"] .hero-description {
-    font-size: 1rem;
+  .article-card-content h2,
+  .article-card-content h3 {
+    font-size: 20px;
+
+    line-height: 1.6;
+  }
+
+  .article-card-content > p:not(.article-meta) {
+    font-size: 17px;
+
     line-height: 1.9;
   }
 
-}
-
-/* =========================================================
-   Arabic Typography — Word Integrity
-   ========================================================= */
-
-
-html[lang="ar"] body,
-html[lang="ar"] h1,
-html[lang="ar"] h2,
-html[lang="ar"] h3,
-html[lang="ar"] h4,
-html[lang="ar"] p,
-html[lang="ar"] a,
-html[lang="ar"] span,
-html[lang="ar"] li {
-    word-break: normal;
-    overflow-wrap: break-word;
-    hyphens: none;
-    white-space: normal;
-    letter-spacing: 0;
-    
-}
-/* Arabic — Preserve whole words */
-html[lang="ar"] .article-content,
-html[lang="ar"] .article-content p,
-html[lang="ar"] .article-content h1,
-html[lang="ar"] .article-content h2,
-html[lang="ar"] .article-content h3,
-html[lang="ar"] .article-content h4,
-html[lang="ar"] .article-content a {
-  word-break: normal;
-  overflow-wrap: normal;
-  hyphens: none;
-  white-space: normal;
-  letter-spacing: 0;
-}
-
-/* Article author metadata */
-
-.article-meta {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  flex-wrap: wrap;
-  margin-top: 20px;
-  margin-bottom: 24px;
-}
-
-.article-author {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.article-author-icon {
-  width: 20px;
-  height: 20px;
-  object-fit: contain;
-  flex-shrink: 0;
-}
-
-.article-notes-heading {
-  margin-top: 40px;
-}
-
-.article-cta {
-  margin: 40px 0;
-}
-
-.article-image {
-  margin: 40px 0;
-}
-
-html[lang="ar"] .article-card {
-  max-width: 560px;
-  margin-inline: auto;
-}
-
-html[lang="ar"] .article-card .article-image {
-  width: 320px;
-  max-width: 320px;
-  margin: 0 auto 1.5rem;
-}
-
-html[lang="ar"] .article-card .article-image img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-html[lang="ar"] .article-card > a {
-  display: block;
-}
-
-html[lang="ar"] .article-card > a > .article-image {
-  margin: 0 0 1.25rem;
-}
-
-html[lang="ar"] .article-card > a > .article-image img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.article-card > a > .article-image {
-  width: 320px !important;
-  max-width: 320px !important;
-  margin: 0 auto 1.5rem !important;
-}
-
-.article-card > a > .article-image img {
-  display: block;
-  width: 100% !important;
-  max-width: 100% !important;
-  height: auto !important;
-}
-
-.article-content p {
+  .article-content p {
     font-size: 17px;
-    line-height: 1.8;
-    text-align: justify;
-}
 
-.article-content h2 {
-    font-size: 17px;
-    line-height: 1.8;
-    font-weight: 700;
-}
+    line-height: 1.9;
+  }
 
-.article-content h3 {
-    font-size: 17px;
-    line-height: 1.8;
-    font-weight: 700;
-}
-
-.article-content ul {
-    font-size: 17px;
-    line-height: 1.8;
-}
-
-.article-meta {
-    font-size: 16px;
-}
-
-.section-heading > p:not(.eyebrow) {
-    font-size: 17px;
-    line-height: 1.8;
-    text-align: justify;
-}
-
-.article-card-content h2 {
-  font-size: 17px;
-}
-
-.article-card-content > p:not(.article-meta) {
-  font-size: 17px;
-  text-align: justify;
-}
-html[lang="ar"] .article-card {
-  width: 100%;
-  max-width: 560px;
-  margin-inline: auto;
-}
-
-html[lang="ar"] .article-card .article-image,
-html[lang="ar"] .article-card > figure.article-image {
-  display: block;
-  width: min(320px, 100%) !important;
-  max-width: 320px !important;
-  margin: 0 auto 1.5rem !important;
-  box-sizing: border-box;
-}
-
-html[lang="ar"] .article-card .article-image img,
-html[lang="ar"] .article-card > figure.article-image img {
-  display: block;
-  width: 100% !important;
-  max-width: 100% !important;
-  height: auto !important;
-  margin: 0 !important;
-}
-html[lang="ar"] .article-card .article-image {
-  width: 320px !important;
-  max-width: 320px !important;
-  margin: 0 auto 1.5rem !important;
-  box-sizing: border-box;
-}
-
-html[lang="ar"] .article-card .article-image img {
-  display: block;
-  width: 100% !important;
-  max-width: 100% !important;
-  height: auto !important;
 }
