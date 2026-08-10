@@ -634,6 +634,25 @@ html[lang="ar"] .article-content a {
   margin: 40px 0;
 }
 
+html[lang="ar"] .article-card {
+  max-width: 760px;
+  margin-inline: auto;
+}
+
+html[lang="ar"] .article-card > a {
+  display: block;
+}
+
+html[lang="ar"] .article-card > a > .article-image {
+  margin: 0 0 1.25rem;
+}
+
+html[lang="ar"] .article-card > a > .article-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .article-card > a > .article-image {
   width: 320px !important;
   max-width: 320px !important;
