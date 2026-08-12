@@ -533,12 +533,11 @@ body {
   font-size: 17px;
   text-align: justify;
 }
-
 .article-cta {
-  margin: 3rem 0;
-  padding: 2rem;
+  margin: 40px 0;
+  padding: 1.25rem;
   background: #11110d;
-  border-radius: 4px;
+  border-radius: 6px;
   text-align: center;
 }
 
