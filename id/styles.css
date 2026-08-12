@@ -560,3 +560,34 @@ body {
   font-size: 16px;
   line-height: 1.4;
 }
+
+/* =========================================================
+   Article CTA — Dark Button
+   ========================================================= */
+
+.article-cta {
+  display: flex;
+  justify-content: center;
+
+  margin: 40px 0;
+}
+
+.article-cta .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 48px;
+  padding: 0 24px;
+
+  border-radius: 999px;
+
+  background: #171713;
+  color: #f7f5f0;
+
+  text-decoration: none;
+
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 500;
+}
