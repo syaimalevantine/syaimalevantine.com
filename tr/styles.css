@@ -533,3 +533,19 @@ body {
   font-size: 17px;
   text-align: justify;
 }
+
+.article-cta {
+  margin: 3rem 0;
+  padding: 2rem;
+  background: #11110d;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.article-cta .btn {
+  color: #f5f2ea;
+}
+
+.article-cta .btn:hover {
+  color: #ffffff;
+}
