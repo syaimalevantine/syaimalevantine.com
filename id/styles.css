@@ -531,3 +531,32 @@ body {
   font-size: 17px;
   text-align: justify;
 }
+
+/* =========================================================
+   Article Card — Match English Card Style
+   ========================================================= */
+
+.article-card-content h2 {
+  margin: 0 0 14px;
+
+  font-size: 17px;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.article-card-content > p:not(.article-meta) {
+  margin: 0;
+
+  font-size: 17px;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.article-card-content .btn-text {
+  display: inline-block;
+
+  margin-top: 28px;
+
+  font-size: 16px;
+  line-height: 1.4;
+}
