@@ -535,14 +535,24 @@ body {
 }
 .article-cta {
   margin: 40px 0;
-  padding: 1.25rem;
-  background: #11110d;
-  border-radius: 6px;
   text-align: center;
 }
 
 .article-cta .btn {
-  color: #f5f2ea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 52px;
+  padding: 0 24px;
+  box-sizing: border-box;
+  background: #171713;
+  color: #f7f5f0;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 .article-cta .btn:hover {
