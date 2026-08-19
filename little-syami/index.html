@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
   <title>Little Syami Publishing</title>
 
@@ -12,6 +17,7 @@
   >
 
   <style>
+
     :root {
       --paper: #f8f3e8;
       --paper-soft: #fcf9f1;
@@ -25,19 +31,23 @@
       --white: #fffdf8;
     }
 
+
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
     }
 
+
     html {
       scroll-behavior: smooth;
     }
 
+
     body {
       background: var(--paper);
       color: var(--text);
+
       font-family:
         -apple-system,
         BlinkMacSystemFont,
@@ -45,12 +55,15 @@
         "Helvetica Neue",
         Arial,
         sans-serif;
+
       line-height: 1.5;
     }
+
 
     button {
       font: inherit;
     }
+
 
     /* =========================
        HEADER
@@ -60,14 +73,20 @@
       position: sticky;
       top: 0;
       z-index: 50;
+
       background: rgba(248, 243, 232, 0.96);
+
       backdrop-filter: blur(14px);
-      border-bottom: 1px solid var(--line);
+
+      border-bottom:
+        1px solid var(--line);
     }
 
+
     .header-inner {
-      height: 92px;
       max-width: 1180px;
+      height: 92px;
+
       margin: 0 auto;
       padding: 0 28px;
 
@@ -76,18 +95,24 @@
       justify-content: space-between;
     }
 
+
     .brand {
       display: flex;
       align-items: center;
       gap: 14px;
-      text-decoration: none;
+
       color: var(--text);
+      text-decoration: none;
     }
+
 
     .brand-mark {
       width: 52px;
       height: 52px;
-      border: 1.5px solid var(--olive-soft);
+
+      border:
+        1.5px solid var(--olive-soft);
+
       border-radius: 50%;
 
       display: flex;
@@ -95,33 +120,55 @@
       justify-content: center;
 
       color: var(--olive);
-      font-family: Georgia, serif;
+
+      font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
       font-size: 25px;
     }
+
 
     .brand-text {
       line-height: 1;
     }
 
+
     .brand-name {
-      font-family: Georgia, "Times New Roman", serif;
+      font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
       font-size: 22px;
+
       letter-spacing: -0.4px;
     }
 
+
     .brand-subtitle {
       margin-top: 5px;
-      font-size: 9px;
-      letter-spacing: 3px;
+
       color: var(--muted);
+
+      font-size: 9px;
+
+      letter-spacing: 3px;
     }
+
 
     .menu-button {
       width: 52px;
       height: 52px;
-      border: 1px solid var(--line);
+
+      border:
+        1px solid var(--line);
+
       border-radius: 50%;
+
       background: var(--paper-soft);
+
       color: var(--olive);
 
       display: flex;
@@ -129,8 +176,10 @@
       justify-content: center;
 
       font-size: 22px;
+
       cursor: pointer;
     }
+
 
     /* =========================
        HERO
@@ -138,53 +187,87 @@
 
     .hero {
       max-width: 900px;
+
       margin: 0 auto;
-      padding: 86px 28px 70px;
+
+      padding:
+        86px 28px 70px;
+
       text-align: center;
     }
 
+
     .eyebrow {
-      color: var(--gold);
-      font-size: 12px;
-      letter-spacing: 5px;
       margin-bottom: 24px;
+
+      color: var(--gold);
+
+      font-size: 12px;
+
+      letter-spacing: 5px;
     }
 
+
     .hero h1 {
-      font-family: Georgia, "Times New Roman", serif;
-      font-weight: 400;
-      font-size: clamp(48px, 8vw, 76px);
-      line-height: 0.98;
-      letter-spacing: -2px;
       color: var(--olive);
+
+      font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+      font-size:
+        clamp(48px, 8vw, 76px);
+
+      font-weight: 400;
+
+      line-height: 0.98;
+
+      letter-spacing: -2px;
     }
+
 
     .hero p {
       max-width: 650px;
-      margin: 30px auto 0;
+
+      margin:
+        30px auto 0;
+
       color: #77756c;
+
       font-size: 18px;
+
       line-height: 1.7;
     }
 
+
     .ornament {
-      margin: 38px auto 0;
+      margin:
+        38px auto 0;
+
       display: flex;
       align-items: center;
       justify-content: center;
+
       gap: 18px;
     }
+
 
     .ornament-line {
       width: 115px;
       height: 1px;
-      background: var(--gold-soft);
+
+      background:
+        var(--gold-soft);
     }
+
 
     .ornament-heart {
       color: var(--gold);
+
       font-size: 18px;
     }
+
 
     /* =========================
        CATALOG
@@ -192,72 +275,116 @@
 
     .catalog {
       max-width: 1180px;
+
       margin: 0 auto;
-      padding: 0 28px 100px;
+
+      padding:
+        0 28px 100px;
     }
+
 
     .section-title {
-      font-family: Georgia, "Times New Roman", serif;
-      font-weight: 400;
-      color: var(--olive);
-      font-size: 38px;
       margin-bottom: 28px;
+
+      color: var(--olive);
+
+      font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+      font-size: 38px;
+
+      font-weight: 400;
     }
 
+
     /* =========================
-       FILTERS
+       FILTER GROUP
     ========================= */
 
     .filter-group {
       margin-bottom: 20px;
     }
 
+
     .filter-label {
       display: block;
+
       margin-bottom: 10px;
+
       color: var(--muted);
+
       font-size: 11px;
+
       letter-spacing: 2px;
+
       text-transform: uppercase;
     }
 
+
     .filters {
       display: flex;
+
       gap: 10px;
+
       overflow-x: auto;
+
       padding-bottom: 4px;
+
       scrollbar-width: none;
     }
+
 
     .filters::-webkit-scrollbar {
       display: none;
     }
 
+
     .filter-btn {
-      flex: 0 0 auto;
+      flex:
+        0 0 auto;
 
-      border: 1px solid var(--line);
-      background: var(--paper-soft);
-      color: var(--olive-soft);
+      padding:
+        11px 20px;
 
-      padding: 11px 20px;
+      border:
+        1px solid var(--line);
+
       border-radius: 999px;
 
-      cursor: pointer;
+      background:
+        var(--paper-soft);
+
+      color:
+        var(--olive-soft);
+
       white-space: nowrap;
 
-      transition: 0.2s ease;
+      cursor: pointer;
+
+      transition:
+        0.2s ease;
     }
+
 
     .filter-btn:hover {
-      border-color: var(--gold-soft);
+      border-color:
+        var(--gold-soft);
     }
 
+
     .filter-btn.active {
-      background: var(--olive);
-      color: #fffdf7;
-      border-color: var(--olive);
+      border-color:
+        var(--olive);
+
+      background:
+        var(--olive);
+
+      color:
+        #fffdf7;
     }
+
 
     /* =========================
        BOOK GRID
@@ -267,13 +394,24 @@
       margin-top: 48px;
 
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 58px 28px;
+
+      grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+
+      gap:
+        58px 28px;
     }
+
 
     .book-card {
       min-width: 0;
     }
+
+
+    .book-card.hidden {
+      display: none;
+    }
+
 
     /* =========================
        BOOK COVER
@@ -281,15 +419,20 @@
 
     .book-cover-wrap {
       position: relative;
+
       width: 100%;
-      aspect-ratio: 1 / 1.22;
+
+      aspect-ratio:
+        1 / 1.22;
     }
+
 
     .book-cover {
       position: relative;
 
       width: 88%;
       height: 92%;
+
       margin-left: 3%;
 
       overflow: hidden;
@@ -302,18 +445,23 @@
           #e8dfcd 100%
         );
 
-      border: 1px solid #e3dac8;
+      border:
+        1px solid #e3dac8;
 
       box-shadow:
-        8px 10px 0 rgba(83, 82, 52, 0.06),
-        14px 18px 25px rgba(83, 82, 52, 0.13);
+        8px 10px 0
+        rgba(83, 82, 52, 0.06),
 
-      transform: rotateY(-2deg);
+        14px 18px 25px
+        rgba(83, 82, 52, 0.13);
     }
+
 
     .book-cover::after {
       content: "";
+
       position: absolute;
+
       top: 0;
       right: 0;
 
@@ -328,25 +476,35 @@
         );
     }
 
+
+    /* =========================
+       TEMPORARY COVER
+    ========================= */
+
     .crescent {
       position: absolute;
 
       top: 16%;
       left: 50%;
 
-      transform: translateX(-50%);
+      transform:
+        translateX(-50%);
 
       width: 62px;
       height: 62px;
 
       border-radius: 50%;
-      background: var(--gold);
+
+      background:
+        var(--gold);
     }
+
 
     .crescent::after {
       content: "";
 
       position: absolute;
+
       top: -8px;
       left: 15px;
 
@@ -354,93 +512,117 @@
       height: 62px;
 
       border-radius: 50%;
-      background: #f7f2e7;
+
+      background:
+        #f7f2e7;
     }
+
 
     .cover-placeholder-title {
       position: absolute;
 
-      left: 10%;
-      right: 10%;
       top: 43%;
 
+      left: 10%;
+      right: 10%;
+
       text-align: center;
+
+      color: var(--olive);
 
       font-family:
         Georgia,
         "Times New Roman",
         serif;
 
-      font-size: clamp(22px, 3vw, 34px);
-      line-height: 1.08;
+      font-size:
+        clamp(22px, 3vw, 34px);
 
-      color: var(--olive);
+      line-height: 1.08;
     }
+
 
     .cover-placeholder-status {
       position: absolute;
 
       left: 0;
       right: 0;
+
       bottom: 11%;
 
       text-align: center;
 
-      font-size: 10px;
-      letter-spacing: 3px;
       color: var(--muted);
+
+      font-size: 10px;
+
+      letter-spacing: 3px;
     }
 
+
     /* =========================
-       BOOK INFORMATION
+       BOOK INFO
     ========================= */
 
     .book-info {
-      padding: 22px 4px 0;
+      padding:
+        22px 4px 0;
     }
 
+
     .book-type {
+      margin-bottom: 8px;
+
       color: var(--gold);
 
       font-size: 10px;
-      letter-spacing: 2px;
 
-      margin-bottom: 8px;
+      letter-spacing: 2px;
     }
 
+
     .book-title {
+      color: var(--olive);
+
       font-family:
         Georgia,
         "Times New Roman",
         serif;
 
-      color: var(--olive);
-
       font-size: 23px;
+
       line-height: 1.2;
     }
+
 
     .book-meta {
       margin-top: 9px;
 
       color: var(--muted);
+
       font-size: 14px;
     }
+
 
     .book-language {
       margin-top: 5px;
 
       color: var(--olive-soft);
+
       font-size: 13px;
     }
 
-    .book-format {
+
+    .book-price {
       margin-top: 8px;
 
       color: var(--olive);
-      font-size: 13px;
+
+      font-size: 15px;
+
       font-weight: 500;
     }
+
 
     /* =========================
        BUY BUTTON
@@ -450,18 +632,27 @@
       display: inline-block;
 
       margin-top: 16px;
-      padding: 9px 18px;
 
-      border: 1px solid var(--olive);
+      padding:
+        9px 18px;
+
+      border:
+        1px solid var(--olive);
+
       border-radius: 999px;
 
-      background: var(--olive);
-      color: #fffdf7;
+      background:
+        var(--olive);
+
+      color:
+        #fffdf7;
 
       text-decoration: none;
 
       font-size: 10px;
+
       letter-spacing: 1.5px;
+
       text-transform: uppercase;
 
       transition:
@@ -469,40 +660,42 @@
         transform 0.2s ease;
     }
 
+
     .buy-button:hover {
-      background: var(--olive-soft);
-      transform: translateY(-1px);
+      background:
+        var(--olive-soft);
+
+      transform:
+        translateY(-1px);
     }
 
-    /* =========================
-       HIDDEN BOOK
-    ========================= */
-
-    .book-card.hidden {
-      display: none;
-    }
 
     /* =========================
        FOOTER
     ========================= */
 
     footer {
-      border-top: 1px solid var(--line);
+      padding:
+        55px 28px;
 
-      padding: 55px 28px;
+      border-top:
+        1px solid var(--line);
 
       text-align: center;
     }
 
+
     .footer-name {
+      color: var(--olive);
+
       font-family:
         Georgia,
         "Times New Roman",
         serif;
 
-      color: var(--olive);
       font-size: 24px;
     }
+
 
     .footer-sub {
       margin-top: 8px;
@@ -510,15 +703,19 @@
       color: var(--muted);
 
       font-size: 10px;
+
       letter-spacing: 3px;
     }
+
 
     .footer-copy {
       margin-top: 28px;
 
       color: var(--muted);
+
       font-size: 12px;
     }
+
 
     /* =========================
        DESKTOP
@@ -530,18 +727,23 @@
         height: 104px;
       }
 
+
       .hero {
         padding-top: 110px;
         padding-bottom: 90px;
       }
 
+
       .book-grid {
         grid-template-columns:
           repeat(3, minmax(0, 1fr));
 
-        gap: 65px 35px;
+        gap:
+          65px 35px;
       }
+
     }
+
 
     /* =========================
        MOBILE
@@ -551,48 +753,64 @@
 
       .header-inner {
         height: 88px;
-        padding: 0 18px;
+
+        padding:
+          0 18px;
       }
+
 
       .brand-mark {
         width: 48px;
         height: 48px;
       }
 
+
       .brand-name {
         font-size: 20px;
       }
 
+
       .hero {
-        padding: 72px 28px 65px;
+        padding:
+          72px 28px 65px;
       }
+
 
       .hero h1 {
         font-size: 49px;
       }
 
+
       .hero p {
         font-size: 16px;
       }
 
+
       .catalog {
-        padding: 0 30px 80px;
+        padding:
+          0 30px 80px;
       }
+
 
       .section-title {
         font-size: 34px;
       }
 
+
       .book-grid {
-        gap: 48px 24px;
+        gap:
+          48px 24px;
       }
+
 
       .book-title {
         font-size: 20px;
       }
+
     }
 
   </style>
+
 </head>
 
 
@@ -607,17 +825,22 @@
 
     <div class="header-inner">
 
-      <a href="#" class="brand">
+      <a
+        href="#"
+        class="brand"
+      >
 
         <div class="brand-mark">
           ☾
         </div>
+
 
         <div class="brand-text">
 
           <div class="brand-name">
             Little Syami
           </div>
+
 
           <div class="brand-subtitle">
             PUBLISHING
@@ -640,11 +863,15 @@
   </header>
 
 
+
   <!-- =========================
-       HERO
+       MAIN
   ========================= -->
 
   <main>
+
+
+    <!-- HERO -->
 
     <section class="hero">
 
@@ -652,16 +879,19 @@
         LITTLE SYAMI PUBLISHING
       </div>
 
+
       <h1>
         Stories to<br>
         Grow With
       </h1>
+
 
       <p>
         Thoughtful children's books inspired by faith,
         family, imagination, and the beauty of the
         world around us.
       </p>
+
 
       <div class="ornament">
 
@@ -678,6 +908,7 @@
     </section>
 
 
+
     <!-- =========================
          CATALOG
     ========================= -->
@@ -687,20 +918,21 @@
       id="books"
     >
 
+
       <h2 class="section-title">
         Our Books
       </h2>
 
 
-      <!-- =========================
-           AGE FILTER
-      ========================= -->
+
+      <!-- AGE FILTER -->
 
       <div class="filter-group">
 
         <span class="filter-label">
           Age
         </span>
+
 
         <div
           class="filters"
@@ -714,6 +946,7 @@
             All Ages
           </button>
 
+
           <button
             class="filter-btn"
             data-age="4-6"
@@ -721,12 +954,14 @@
             Ages 4–6
           </button>
 
+
           <button
             class="filter-btn"
             data-age="7-9"
           >
             Ages 7–9
           </button>
+
 
           <button
             class="filter-btn"
@@ -740,15 +975,15 @@
       </div>
 
 
-      <!-- =========================
-           LANGUAGE FILTER
-      ========================= -->
+
+      <!-- LANGUAGE FILTER -->
 
       <div class="filter-group">
 
         <span class="filter-label">
           Language
         </span>
+
 
         <div
           class="filters"
@@ -762,12 +997,14 @@
             All Languages
           </button>
 
+
           <button
             class="filter-btn"
             data-language="id"
           >
             Bahasa Indonesia
           </button>
+
 
           <button
             class="filter-btn"
@@ -776,12 +1013,14 @@
             Türkçe
           </button>
 
+
           <button
             class="filter-btn"
             data-language="en"
           >
             English
           </button>
+
 
           <button
             class="filter-btn"
@@ -795,15 +1034,16 @@
       </div>
 
 
+
       <!-- =========================
            BOOK GRID
-           MASTER TEMPLATE
       ========================= -->
 
       <div
         class="book-grid"
         id="bookGrid"
       >
+
 
 
         <!-- =========================
@@ -822,11 +1062,13 @@
 
               <div class="crescent"></div>
 
+
               <div class="cover-placeholder-title">
                 Little Syaima<br>
                 dan Hilal<br>
                 di Al Aqsha
               </div>
+
 
               <div class="cover-placeholder-status">
                 DIGITAL BOOK
@@ -840,24 +1082,29 @@
           <div class="book-info">
 
             <div class="book-type">
-              CHILDREN'S BOOK
+              DIGITAL BOOK
             </div>
+
 
             <h3 class="book-title">
               Little Syaima dan Hilal di Al Aqsha
             </h3>
 
+
             <div class="book-meta">
               Ages 4–9
             </div>
+
 
             <div class="book-language">
               Bahasa Indonesia
             </div>
 
-            <div class="book-format">
-              Digital Book
+
+            <div class="book-price">
+              USD [PRICE]
             </div>
+
 
             <a
               href="#"
@@ -869,6 +1116,7 @@
           </div>
 
         </article>
+
 
 
         <!-- =========================
@@ -887,11 +1135,13 @@
 
               <div class="crescent"></div>
 
+
               <div class="cover-placeholder-title">
                 Little Syaima<br>
                 dan Hilal<br>
                 di Al Aqsha
               </div>
+
 
               <div class="cover-placeholder-status">
                 DIGITAL BOOK
@@ -905,24 +1155,29 @@
           <div class="book-info">
 
             <div class="book-type">
-              CHILDREN'S BOOK
+              DIGITAL BOOK
             </div>
+
 
             <h3 class="book-title">
               Little Syaima dan Hilal di Al Aqsha
             </h3>
 
+
             <div class="book-meta">
               Ages 4–9
             </div>
+
 
             <div class="book-language">
               Türkçe
             </div>
 
-            <div class="book-format">
-              Digital Book
+
+            <div class="book-price">
+              USD [PRICE]
             </div>
+
 
             <a
               href="#"
@@ -934,6 +1189,7 @@
           </div>
 
         </article>
+
 
 
         <!-- =========================
@@ -952,11 +1208,13 @@
 
               <div class="crescent"></div>
 
+
               <div class="cover-placeholder-title">
                 Little Syaima<br>
                 and Hilal<br>
                 at Al Aqsha
               </div>
+
 
               <div class="cover-placeholder-status">
                 DIGITAL BOOK
@@ -970,24 +1228,29 @@
           <div class="book-info">
 
             <div class="book-type">
-              CHILDREN'S BOOK
+              DIGITAL BOOK
             </div>
+
 
             <h3 class="book-title">
               Little Syaima and Hilal at Al Aqsha
             </h3>
 
+
             <div class="book-meta">
               Ages 4–9
             </div>
+
 
             <div class="book-language">
               English
             </div>
 
-            <div class="book-format">
-              Digital Book
+
+            <div class="book-price">
+              USD [PRICE]
             </div>
+
 
             <a
               href="#"
@@ -999,6 +1262,7 @@
           </div>
 
         </article>
+
 
 
         <!-- =========================
@@ -1017,10 +1281,12 @@
 
               <div class="crescent"></div>
 
+
               <div class="cover-placeholder-title">
                 شايما وهلال<br>
                 في الأقصى
               </div>
+
 
               <div class="cover-placeholder-status">
                 DIGITAL BOOK
@@ -1034,24 +1300,29 @@
           <div class="book-info">
 
             <div class="book-type">
-              CHILDREN'S BOOK
+              DIGITAL BOOK
             </div>
+
 
             <h3 class="book-title">
               Little Syaima dan Hilal di Al Aqsha
             </h3>
 
+
             <div class="book-meta">
               Ages 4–9
             </div>
+
 
             <div class="book-language">
               العربية
             </div>
 
-            <div class="book-format">
-              Digital Book
+
+            <div class="book-price">
+              USD [PRICE]
             </div>
+
 
             <a
               href="#"
@@ -1065,8 +1336,9 @@
         </article>
 
 
+
         <!-- =========================
-             BOOK 5 — TEMPLATE
+             BOOK 5
         ========================= -->
 
         <article
@@ -1081,10 +1353,12 @@
 
               <div class="crescent"></div>
 
+
               <div class="cover-placeholder-title">
                 Little Syami<br>
                 Book Five
               </div>
+
 
               <div class="cover-placeholder-status">
                 DIGITAL BOOK
@@ -1098,24 +1372,29 @@
           <div class="book-info">
 
             <div class="book-type">
-              CHILDREN'S BOOK
+              DIGITAL BOOK
             </div>
+
 
             <h3 class="book-title">
               Little Syami Book Five
             </h3>
 
+
             <div class="book-meta">
               Ages 4–6
             </div>
+
 
             <div class="book-language">
               Bahasa Indonesia
             </div>
 
-            <div class="book-format">
-              Digital Book
+
+            <div class="book-price">
+              USD [PRICE]
             </div>
+
 
             <a
               href="#"
@@ -1129,8 +1408,9 @@
         </article>
 
 
+
         <!-- =========================
-             BOOK 6 — TEMPLATE
+             BOOK 6
         ========================= -->
 
         <article
@@ -1145,10 +1425,12 @@
 
               <div class="crescent"></div>
 
+
               <div class="cover-placeholder-title">
                 Little Syami<br>
                 Book Six
               </div>
+
 
               <div class="cover-placeholder-status">
                 DIGITAL BOOK
@@ -1162,24 +1444,29 @@
           <div class="book-info">
 
             <div class="book-type">
-              CHILDREN'S BOOK
+              DIGITAL BOOK
             </div>
+
 
             <h3 class="book-title">
               Little Syami Book Six
             </h3>
 
+
             <div class="book-meta">
               Ages 7–9
             </div>
+
 
             <div class="book-language">
               Türkçe
             </div>
 
-            <div class="book-format">
-              Digital Book
+
+            <div class="book-price">
+              USD [PRICE]
             </div>
+
 
             <a
               href="#"
@@ -1193,8 +1480,9 @@
         </article>
 
 
+
         <!-- =========================
-             BOOK 7 — TEMPLATE
+             BOOK 7
         ========================= -->
 
         <article
@@ -1209,10 +1497,12 @@
 
               <div class="crescent"></div>
 
+
               <div class="cover-placeholder-title">
                 Little Syami<br>
                 Book Seven
               </div>
+
 
               <div class="cover-placeholder-status">
                 DIGITAL BOOK
@@ -1226,24 +1516,29 @@
           <div class="book-info">
 
             <div class="book-type">
-              CHILDREN'S BOOK
+              DIGITAL BOOK
             </div>
+
 
             <h3 class="book-title">
               Little Syami Book Seven
             </h3>
 
+
             <div class="book-meta">
               Ages 4–6
             </div>
+
 
             <div class="book-language">
               English
             </div>
 
-            <div class="book-format">
-              Digital Book
+
+            <div class="book-price">
+              USD [PRICE]
             </div>
+
 
             <a
               href="#"
@@ -1257,8 +1552,9 @@
         </article>
 
 
+
         <!-- =========================
-             BOOK 8 — TEMPLATE
+             BOOK 8
         ========================= -->
 
         <article
@@ -1273,10 +1569,12 @@
 
               <div class="crescent"></div>
 
+
               <div class="cover-placeholder-title">
                 شايما وهلال<br>
                 كتاب ثمانية
               </div>
+
 
               <div class="cover-placeholder-status">
                 DIGITAL BOOK
@@ -1290,24 +1588,29 @@
           <div class="book-info">
 
             <div class="book-type">
-              CHILDREN'S BOOK
+              DIGITAL BOOK
             </div>
+
 
             <h3 class="book-title">
               Little Syami Book Eight
             </h3>
 
+
             <div class="book-meta">
               Ages 4–9
             </div>
+
 
             <div class="book-language">
               العربية
             </div>
 
-            <div class="book-format">
-              Digital Book
+
+            <div class="book-price">
+              USD [PRICE]
             </div>
+
 
             <a
               href="#"
@@ -1321,8 +1624,9 @@
         </article>
 
 
+
         <!-- =========================
-             BOOK 9 — TEMPLATE
+             BOOK 9
         ========================= -->
 
         <article
@@ -1337,10 +1641,12 @@
 
               <div class="crescent"></div>
 
+
               <div class="cover-placeholder-title">
                 Little Syami<br>
                 Book Nine
               </div>
+
 
               <div class="cover-placeholder-status">
                 DIGITAL BOOK
@@ -1354,24 +1660,29 @@
           <div class="book-info">
 
             <div class="book-type">
-              CHILDREN'S BOOK
+              DIGITAL BOOK
             </div>
+
 
             <h3 class="book-title">
               Little Syami Book Nine
             </h3>
 
+
             <div class="book-meta">
               Ages 7–9
             </div>
+
 
             <div class="book-language">
               Bahasa Indonesia
             </div>
 
-            <div class="book-format">
-              Digital Book
+
+            <div class="book-price">
+              USD [PRICE]
             </div>
+
 
             <a
               href="#"
@@ -1385,8 +1696,9 @@
         </article>
 
 
+
         <!-- =========================
-             BOOK 10 — TEMPLATE
+             BOOK 10
         ========================= -->
 
         <article
@@ -1401,10 +1713,12 @@
 
               <div class="crescent"></div>
 
+
               <div class="cover-placeholder-title">
                 Little Syami<br>
                 Book Ten
               </div>
+
 
               <div class="cover-placeholder-status">
                 DIGITAL BOOK
@@ -1418,24 +1732,29 @@
           <div class="book-info">
 
             <div class="book-type">
-              CHILDREN'S BOOK
+              DIGITAL BOOK
             </div>
+
 
             <h3 class="book-title">
               Little Syami Book Ten
             </h3>
 
+
             <div class="book-meta">
               Ages 4–9
             </div>
+
 
             <div class="book-language">
               English
             </div>
 
-            <div class="book-format">
-              Digital Book
+
+            <div class="book-price">
+              USD [PRICE]
             </div>
+
 
             <a
               href="#"
@@ -1456,6 +1775,7 @@
   </main>
 
 
+
   <!-- =========================
        FOOTER
   ========================= -->
@@ -1466,9 +1786,11 @@
       Little Syami
     </div>
 
+
     <div class="footer-sub">
       PUBLISHING
     </div>
+
 
     <div class="footer-copy">
       © 2026 Little Syami Publishing.
@@ -1478,13 +1800,15 @@
   </footer>
 
 
+
   <!-- =========================
-       FILTER JAVASCRIPT
+       FILTER SCRIPT
   ========================= -->
 
   <script>
 
     let selectedAge = "all";
+
     let selectedLanguage = "all";
 
 
@@ -1555,11 +1879,13 @@
         "click",
         () => {
 
-          ageButtons.forEach(btn =>
+          ageButtons.forEach(btn => {
+
             btn.classList.remove(
               "active"
-            )
-          );
+            );
+
+          });
 
 
           button.classList.add(
@@ -1585,11 +1911,13 @@
         "click",
         () => {
 
-          languageButtons.forEach(btn =>
+          languageButtons.forEach(btn => {
+
             btn.classList.remove(
               "active"
-            )
-          );
+            );
+
+          });
 
 
           button.classList.add(
